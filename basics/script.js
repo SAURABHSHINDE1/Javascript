@@ -120,3 +120,58 @@
 
 // let data = 988976896845n
 // console.log(typeof data)
+
+
+// non-primitive datatypes / reference datatypes
+
+// 1 Object
+// 2 Array
+// 3 Function
+
+// Object
+
+// let userData = {
+//     userName: "saurabh",
+//     Age:20,
+//     Address:"loni",
+//     mobileNo:23456789
+// }
+
+// // console.log(userData)
+// console.log(userData.userName)
+// console.log(userData.Age)
+// console.log(userData.Address)
+// console.log(userData.mobileNo)
+
+
+// Array
+// array is an ordered collection of elements
+
+// let arr = [10,20,30,40,50,"omkar",true]
+
+// console.log(arr.length)
+
+// for(let i = 0 ; i < arr.length; i++){
+
+//     console.log(arr[i])
+
+// }
+
+
+// Function
+
+// function greet(){
+//     console.log("hello user")
+// }
+
+// greet()
+
+
+let body = document.querySelector("body")
+
+for(let i = 1; i <= 1000; i++){
+    let box  = document.createElement("div")
+    box.className="box"
+    box.textContent = i
+    body.appendChild(box)
+}
