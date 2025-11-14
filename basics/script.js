@@ -167,11 +167,11 @@
 // greet()
 
 
-let body = document.querySelector("body")
+// let body = document.querySelector("body")
 
-for(let i = 1; i <= 1000; i++){
-    let box  = document.createElement("div")
-    box.className="box"
-    box.textContent = i
-    body.appendChild(box)
-}
+// for(let i = 1; i <= 1000; i++){
+//     let box  = document.createElement("div")
+//     box.className="box"
+//     box.textContent = i
+//     body.appendChild(box)
+// }
