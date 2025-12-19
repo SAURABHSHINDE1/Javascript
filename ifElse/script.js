@@ -52,39 +52,69 @@
 // }
 
 
-let day = "8"
+// let day = "8"
 
-switch(day){
+// switch(day){
 
-    case "1":
-        console.log("monday");
+//     case "1":
+//         console.log("monday");
+//         break;
+
+//     case "2":
+//         console.log("Tuesday");
+//         break;
+
+//     case "3":
+//         console.log("wedensday");
+//         break;
+
+//     case "4":
+//         console.log("Thursday");
+//         break;
+
+//     case "5":
+//         console.log("Friday");
+//         break;
+
+//     case "6":
+//         console.log("Saturday");
+//         break;
+
+//     case "7":
+//         console.log("Sunday");
+//         break;
+
+//     default:
+//         console.log("invalid data")
+// }
+
+
+let opeator = '*';
+
+let a = 20 , b = 56;
+
+switch(opeator){
+
+    case '+':
+        console.log(a+b)
         break;
 
-    case "2":
-        console.log("Tuesday");
+    case '-':
+        console.log(a-b)
+        break;    
+
+    case '*':
+        console.log(a*b)
         break;
 
-    case "3":
-        console.log("wedensday");
+    case '/':
+        console.log(a/b)
         break;
-
-    case "4":
-        console.log("Thursday");
-        break;
-
-    case "5":
-        console.log("Friday");
-        break;
-
-    case "6":
-        console.log("Saturday");
-        break;
-
-    case "7":
-        console.log("Sunday");
-        break;
-
+        
+    case '%':
+        console.log(a%b)
+        break;  
+        
     default:
-        console.log("invalid data")
+        console.log("invalid operator")
 }
-

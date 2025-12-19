@@ -28,5 +28,32 @@
 // }while(i < 0)
 
 
-i++
-++i
+let arr =[1,45,67,89,90,46,33,22]
+
+
+
+
+// for(let i =0; i<arr.length ; i++){
+
+//     console.log(arr[i] + 5)
+
+// }
+
+
+// let i = 0;
+
+// while(i < arr.length){
+
+//     console.log(arr[i]+5)
+    
+//     i++;
+// }
+
+// let i = 0;
+
+// do{
+
+//     console.log(arr[i]+5)
+//     i++;
+
+// }while(i < 10)

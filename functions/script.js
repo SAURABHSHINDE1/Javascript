@@ -54,3 +54,25 @@
 // user()
 
 
+
+// function greet(){
+//     console.log("hello om")
+// }
+
+
+// const greet = ()=>{
+
+//     console.log("hello om")
+
+// }
+
+const greet = (name , age)=>{
+
+    console.log("hello!! how are you " + name)
+
+    console.log("my age is " + age )
+}
+
+greet("om",23)
+
+

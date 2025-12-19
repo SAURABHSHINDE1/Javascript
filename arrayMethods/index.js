@@ -1,39 +1,39 @@
- let arr = [20,45,67,78,99,42,99,88,12,90]
+//  let arr = [20,45,67,78,99,42,99,88,12,90]
 
-//  push pop
+// //  push pop
 
-arr.push(66,23,41)
+// arr.push(66,23,41)
 
-arr.pop()
-
-
-console.log(arr)
+// arr.pop()
 
 
-arr.unshift(56,30)
-
-arr.shift()
-
-arr.splice(5,2 ,55,67,88)
-
-let data  = arr.slice(2,8)
-
-console.log(data)
+// console.log(arr)
 
 
-let index = arr.indexOf(55)
+// arr.unshift(56,30)
 
-console.log(index)
+// arr.shift()
 
-let index2 = arr.lastIndexOf(55)
+// arr.splice(5,2 ,55,67,88)
 
-console.log(index2)
+// let data  = arr.slice(2,8)
+
+// console.log(data)
+
+
+// let index = arr.indexOf(55)
+
+// console.log(index)
+
+// let index2 = arr.lastIndexOf(55)
+
+// console.log(index2)
 
 
 
- let result1 = arr.includes(55)
+//  let result1 = arr.includes(55)
 
- console.log(result1)
+//  console.log(result1)
 
 let mobiles = [
   {
@@ -112,36 +112,98 @@ let mobiles = [
 
 
 
-mobiles.forEach((currelem ,index)=>{
+// mobiles.forEach((currelem ,index)=>{
 
-     console.log(`${index+1} :- ${currelem.model}: Price: ${currelem.price}`)
+//      console.log(`${index+1} :- ${currelem.model}: Price: ${currelem.price}`)
 
-     console.log(`Colour:-${currelem.color}`)
+//      console.log(`Colour:-${currelem.color}`)
 
-})
-
-
-console.log(mobiles)
+// })
 
 
-
-let updatedData = mobiles.map((currelem , index)=>{
-    return {
-
-        newBrand: currelem.brand,
-        newModel : currelem.model,
-        newPrice : currelem.price + 2000,
-        newStorage: currelem.storage + " 1 Year warranty",
-        newColor: currelem.color
-
-    }
-})
-
-console.log(updatedData)
+// console.log(mobiles)
 
 
 
+// let updatedData = mobiles.map((currelem , index)=>{
+//     return {
 
-let result = mobiles.filter((currelem)=> currelem.storage ==="1TB" )
+//         newBrand: currelem.brand,
+//         newModel : currelem.model,
+//         newPrice : currelem.price + 2000,
+//         newStorage: currelem.storage + " 1 Year warranty",
+//         newColor: currelem.color
 
-console.log(result)
+//     }
+// })
+
+// console.log(updatedData)
+
+
+
+
+// let result = mobiles.filter((currelem)=> currelem.storage ==="1TB" )
+
+// console.log(result)
+
+// concat in array
+
+// let a = [1,2,3]
+
+// let b =[4,5,6]
+
+// let result = a.concat(b)
+
+// console.log(result)
+
+// join method in array
+
+// let arr =["Rohit" , "abhishek" ,"vishal"]
+
+// let result = arr.join('_')
+
+// console.log(result)
+
+
+// reduce method in array 
+
+// let arr = [1,3,5,6 ,5]
+
+// let result = arr.reduce( (a , b)=> a + b)
+
+
+
+
+
+// let arr = [45 , 56 , 67 , 78, 66, 90]
+
+
+
+
+// let result = arr.find((curr)=> curr > 70)
+
+// console.log(result)
+
+
+// let index = arr.findIndex((curr)=> curr > 70)
+
+// console.log(index)
+
+// let index2 = arr.findLastIndex((curr)=> curr > 70)
+
+// console.log(index2)
+
+
+// let str = "hello to all"
+
+// let result = Array.from(str)
+
+
+// console.log(result)
+
+// let arr = "xyz"
+
+// let result1 = Array.isArray(arr)
+
+// console.log(result1)
+
