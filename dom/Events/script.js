@@ -1,5 +1,5 @@
 
-let box  = document.querySelector(".box")
+// let box  = document.querySelector(".box")
 
 // box.addEventListener("click" ,(event)=>{
 
@@ -71,13 +71,45 @@ let box  = document.querySelector(".box")
 
 
 
-let text = document.querySelector("#name")
+// let text = document.querySelector("#name")
 
-text.addEventListener("focus" ,()=>{
-    console.log("you focused on field")
-})
+// text.addEventListener("focus" ,()=>{
+//     console.log("you focused on field")
+// })
 
 
-text.addEventListener("blur" , ()=>{
-    console.log("you loose the foucs from field")
+// text.addEventListener("blur" , ()=>{
+//     console.log("you loose the foucs from field")
+// })
+
+// let btn = document.querySelector("button")
+
+// let box = document.querySelector(".box")
+
+// btn.addEventListener("click" ,()=>{
+//     box.classList.toggle("open")
+// })
+
+// function add(){
+//     let gender = document.querySelector('input[name="gender"]:checked')?.value
+
+// console.log(gender)
+// }
+
+
+document.querySelector("#from").addEventListener("submit" ,(e)=>{
+    e.preventDefault();
+
+    const fromData = new FormData(e.target)
+
+    let obj = {
+        data1:fromData.get("name"),
+        data2:fromData.get("email"),
+        data3:fromData.get("gender"),
+        data4:fromData.getAll("features"),
+        data5:fromData.get("products"),
+        data6:fromData.get("quality")
+    }
+
+    console.log(obj)
 })

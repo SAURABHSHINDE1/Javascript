@@ -15,11 +15,11 @@ html,body{
 }
 
 .box{
-    height: 20px;
-    width: 20px;
+    height: 200px;
+    width: 200px;
     background-color: aqua;
     border-radius: 50%;
-    position: absolute;
+    display: none;
 }
 
 form{
@@ -28,4 +28,8 @@ form{
     justify-content:center;
     flex-direction: column;
     gap: 10px;
+}
+
+.open{
+    display: block;
 }
